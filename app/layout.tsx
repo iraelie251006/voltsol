@@ -17,7 +17,27 @@ const poppins = localFont({
 
 export const metadata: Metadata = {
   title: "VoltSol",
-  description: "Your gateway to seamless solar energy solutions.",
+  description: `VoltSol Global Ltd is a Rwandan-based company
+dedicated to delivering innovative electric solutions that
+make everyday life more efficient, sustainable, and
+affordable.`,
+  authors: [{ name: "Ndahimana Thierry" }],
+  openGraph: {
+    images: [
+      {
+        url: "/voltsol.jpeg",
+      },
+    ],
+    type: "website",
+    siteName: "VoltSol",
+    title: "VoltSol",
+    description:
+      `VoltSol Global Ltd is a Rwandan-based company
+dedicated to delivering innovative electric solutions that
+make everyday life more efficient, sustainable, and
+affordable.`,
+    url: "https://voltsol.vercel.app",
+  },
 };
 
 export default function RootLayout({
