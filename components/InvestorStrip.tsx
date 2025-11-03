@@ -75,7 +75,7 @@ const InvestorStrip = () => {
                   
                 </Button>
                 <Button variant="outline" className="border-2">
-                  <Link href={"/"}>
+                  <Link href={"https://wa.me/250780158711?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services"}>
                     Book Investor Call
                   </Link>
                   

@@ -1,4 +1,5 @@
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, X } from "lucide-react";
+import { BsTiktok } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -11,23 +12,26 @@ const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
                 <span className="text-white font-heading font-bold text-xl">V</span>
               </div>
-              <span className="font-heading font-bold text-xl">VoltSol</span>
+              <span className="font-heading font-bold text-xl">VoltSol Global Ltd</span>
             </div>
             <p className="text-sm text-secondary-foreground/80 mb-4">
               Building affordable electric mobility for Rwanda and East Africa.
             </p>
             <div className="flex space-x-3">
-              <a href="#" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61582990515343" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Facebook className="h-4 w-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
-                <Twitter className="h-4 w-4" />
+              <a href="https://x.com/voltsolglobal?t=0Llg6eyupo7kscJmeGqolw&s=09" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <X className="h-4 w-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+              <a href="https://www.instagram.com/voltsolglobal?utm_source=qr&igsh=MXFhZXJ1YzVsM3VhdA==" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+              <a href="https://www.linkedin.com/in/thierry-harerimana-333473379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
                 <Linkedin className="h-4 w-4" />
+              </a>
+              <a href="https://www.tiktok.com/@voltsolglobal?_r=1&_t=ZM-915uklfmZqt" className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors">
+                <BsTiktok className="h-4 w-4" />
               </a>
             </div>
           </div>

@@ -16,7 +16,7 @@ const poppins = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "VoltSol",
+  title: "VoltSol Global Ltd",
   description: `VoltSol Global Ltd is a Rwandan-based company
 dedicated to delivering innovative electric solutions that
 make everyday life more efficient, sustainable, and
@@ -30,7 +30,7 @@ affordable.`,
     ],
     type: "website",
     siteName: "VoltSol",
-    title: "VoltSol",
+    title: "VoltSol Global Ltd",
     description:
       `VoltSol Global Ltd is a Rwandan-based company
 dedicated to delivering innovative electric solutions that
