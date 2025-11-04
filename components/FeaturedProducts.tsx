@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
       category: "E-Bike",
       price: "RWF 850,000",
       leasePrice: "RWF 35,000/month",
-      image: "/product-1.jpg",
+      image: "/hero-ebike.jpg",
       badge: "Best Seller",
       specs: [
         { icon: Battery, label: "120km Range" },

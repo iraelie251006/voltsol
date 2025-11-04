@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 
 const Header = () => {
@@ -13,8 +14,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
-              <span className="text-white font-heading font-bold text-xl">V</span>
+            <div>
+              {/* <span className="text-white font-heading font-bold text-xl">V</span> */}
+              <Image src={"/voltsol.jpeg"} alt="VoltSol Global Ltd" width={87} height={60}/>
             </div>
             <span className="font-heading font-bold text-xl md:text-2xl">VoltSol Global Ltd</span>
           </div>

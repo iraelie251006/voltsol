@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin, X } from "lucide-react";
 import { BsTiktok } from "react-icons/bs";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,8 +10,8 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-xl">V</span>
+              <div className="rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
+                <Image src={"/voltsol.jpeg"} alt="VoltSol Global Ltd" width={70} height={70} className="rounded-full"/>
               </div>
               <span className="font-heading font-bold text-xl">VoltSol Global Ltd</span>
             </div>
