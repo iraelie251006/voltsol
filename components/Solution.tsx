@@ -1,6 +1,6 @@
 const Solution = () => {
   return (
-    <section className="py-20 md:py-32 bg-secondary text-secondary-foreground relative overflow-hidden">
+    <section id="solution" className="py-20 md:py-32 bg-secondary text-secondary-foreground relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

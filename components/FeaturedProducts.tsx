@@ -10,7 +10,7 @@ const FeaturedProducts = () => {
       id: 1,
       name: "VoltSol Urban Pro",
       category: "E-Bike",
-      price: "RWF 850,000",
+      price: "RWF 1,000,000",
       leasePrice: "RWF 35,000/month",
       image: "/hero-ebike.jpg",
       badge: "Best Seller",

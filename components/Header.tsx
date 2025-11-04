@@ -23,17 +23,20 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
+            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
+              About
+            </a>
             <a href="#products" className="text-sm font-medium hover:text-primary transition-colors">
               Products
             </a>
-            <a href="#conversion" className="text-sm font-medium hover:text-primary transition-colors">
-              Conversion Kits
+            <a href="#mission" className="text-sm font-medium hover:text-primary transition-colors">
+              Mission
             </a>
-            <a href="#fleet" className="text-sm font-medium hover:text-primary transition-colors">
-              Fleet Solutions
+            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
+              Services
             </a>
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-              About
+            <a href="#solution" className="text-sm font-medium hover:text-primary transition-colors">
+              Solution
             </a>
           </nav>
 
