@@ -5,7 +5,8 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ImpactCounters from "@/components/ImpactCounters";
 import InvestorStrip from "@/components/InvestorStrip";
-import ProbSolu from "@/components/ProbSolu";
+import Problem from "@/components/Problem";
+import Solution from "@/components/Solution";
 import ValueProps from "@/components/ValueProps";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <ProbSolu />
+        <Problem />
+        <Solution />
         <ValueProps />
         <ImpactCounters />
         <FeaturedProducts />

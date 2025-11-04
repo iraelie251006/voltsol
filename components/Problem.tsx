@@ -1,10 +1,10 @@
 
-const ProbSolu = () => {
+const Problem = () => {
   return (
     <section className="py-20 md:py-32 relative overflow-hidden">
       <div className="flex container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="max-w-2xl mx-auto mb-16 border-r-4 border-primary pl-2">
+        <div className="max-w-4xl mx-auto mb-16 border-primary pl-2">
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
             Pro<span className="text-primary-glow">blem</span>
           </h2>
@@ -19,23 +19,9 @@ const ProbSolu = () => {
             and environmental conservation efforts.
           </p>
         </div>
-        <div className="pl-4">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">
-            Our <span className="text-primary-glow">Solution</span>
-          </h2>
-          <p className="text-lg">
-            VoltSol Global Ltd offers affordable
-            electric bicycles and bicycle
-            conversion kits that make mobility
-            easier, cheaper, and eco-friendly,
-            while reducing emissions and
-            promoting environmental
-            conservation.www.reallygreats
-          </p>
-        </div>
       </div>
     </section>
   )
 }
 
-export default ProbSolu
+export default Problem

@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="rounded-full bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center">
-                <Image src={"/voltsol.jpeg"} alt="VoltSol Global Ltd" width={70} height={70} className="rounded-full"/>
+                <Image src={"/voltsol.jpeg"} alt="VoltSol Global Ltd" width={70} height={70} className="rounded-lg"/>
               </div>
               <span className="font-heading font-bold text-xl">VoltSol Global Ltd</span>
             </div>
