@@ -109,7 +109,7 @@ const FeaturedProducts = () => {
                     {product.price}
                   </div>
                   <div className="text-sm text-muted-foreground">
-                    or {product.leasePrice} lease-to-own
+                    or {product.leasePrice}
                   </div>
                 </div>
 
