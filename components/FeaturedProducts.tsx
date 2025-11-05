@@ -38,7 +38,7 @@ const FeaturedProducts = () => {
       id: 3,
       name: "Conversion Kit Pro",
       category: "Conversion Kit",
-      price: "RWF 450,000",
+      price: "RWF 650,000",
       leasePrice: "RWF 18,000/month",
       image: "/conversion-kit.jpg",
       badge: "DIY Solution",
