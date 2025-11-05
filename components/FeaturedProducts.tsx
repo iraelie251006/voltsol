@@ -10,9 +10,9 @@ const FeaturedProducts = () => {
       id: 1,
       name: "VoltSol Urban Pro",
       category: "E-Bike",
-      price: "RWF 1,000,000",
+      price: "RWF 1,200,000",
       leasePrice: "RWF 35,000/month",
-      image: "/hero-ebike.jpg",
+      image: "/bike1.jpeg",
       badge: "Best Seller",
       specs: [
         { icon: Battery, label: "120km Range" },
@@ -24,9 +24,9 @@ const FeaturedProducts = () => {
       id: 2,
       name: "VoltSol Delivery Max",
       category: "E-Bike",
-      price: "RWF 1,200,000",
+      price: "RWF 1,000,000",
       leasePrice: "RWF 48,000/month",
-      image: "/product-1.jpg",
+      image: "/bike2.jpeg",
       badge: "For Business",
       specs: [
         { icon: Battery, label: "150km Range" },
@@ -40,7 +40,7 @@ const FeaturedProducts = () => {
       category: "Conversion Kit",
       price: "RWF 700,000",
       leasePrice: "RWF 18,000/month",
-      image: "/conversion-kit.jpg",
+      image: "/kit.jpeg",
       badge: "DIY Solution",
       specs: [
         { icon: Battery, label: "100km Range" },
