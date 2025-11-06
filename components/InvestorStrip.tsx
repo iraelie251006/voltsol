@@ -41,10 +41,6 @@ const InvestorStrip = () => {
                 <span className="text-gradient">Electric Revolution</span>
               </h2>
 
-              <p className="text-muted-foreground mb-6 leading-relaxed">
-                VoltSol is seeking <strong className="text-foreground">RWF 10,000,000</strong> to scale production, expand our shop network, and accelerate our path to 5,000 riders by 2027.
-              </p>
-
               {/* Quick Metrics */}
               <div className="grid grid-cols-3 gap-4 mb-6">
                 {metrics.map((metric, index) => {
@@ -65,14 +61,8 @@ const InvestorStrip = () => {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button className="bg-primary hover:bg-primary-glow shadow-lg">
                   {/* make it downloadable link file */}
-                  <Link 
-                  href="/VoltSol Global Ltd pitch Deck.pdf" 
-                  target="_blank" className="flex items-center" 
-                  download={"VoltSol Global Ltd pitch Deck.pdf"}>
                     <Download className="mr-2 h-4 w-4" />
                     Download Pitch Deck
-                  </Link>
-                  
                 </Button>
                 <Button variant="outline" className="border-2">
                   <Link href={"https://wa.me/250780158711?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services"}>

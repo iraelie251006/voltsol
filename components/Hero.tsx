@@ -50,8 +50,7 @@ const Hero = () => {
             <Button 
             size="lg" 
             variant="outline" 
-            className="border-2 hover:bg-primary/5" 
-            onClick={() => window.open("/VoltSol Global Ltd pitch Deck.pdf", "_blank")}>
+            className="border-2 hover:bg-primary/5" >
               <Download className="mr-2 h-5 w-5" />
               Investor Deck
             </Button>

@@ -11,7 +11,6 @@ const FeaturedProducts = () => {
       name: "VoltSol Urban Pro",
       category: "E-Bike",
       price: "RWF 1,200,000",
-      leasePrice: "RWF 35,000/month",
       image: "/bike1.jpeg",
       badge: "Best Seller",
       specs: [
@@ -25,7 +24,6 @@ const FeaturedProducts = () => {
       name: "VoltSol Delivery Max",
       category: "E-Bike",
       price: "RWF 1,000,000",
-      leasePrice: "RWF 48,000/month",
       image: "/bike2.jpeg",
       badge: "For Business",
       specs: [
@@ -39,7 +37,6 @@ const FeaturedProducts = () => {
       name: "Conversion Kit Pro",
       category: "Conversion Kit",
       price: "RWF 700,000",
-      leasePrice: "RWF 18,000/month",
       image: "/kit.jpeg",
       badge: "DIY Solution",
       specs: [
@@ -107,9 +104,6 @@ const FeaturedProducts = () => {
                 <div className="mb-4">
                   <div className="text-2xl font-heading font-bold text-primary mb-1">
                     {product.price}
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    or {product.leasePrice}
                   </div>
                 </div>
 
