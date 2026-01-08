@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Battery, Gauge, Zap } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const FeaturedProducts = () => {
   const products = [
@@ -109,7 +110,13 @@ const FeaturedProducts = () => {
 
                 {/* CTA */}
                 <Button className="w-full bg-primary hover:bg-primary-glow group">
-                  Inquire on WhatsApp
+                  <Link
+                    href="https://wa.me/250780158711?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Inquire on WhatsApp
+                  </Link>
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
