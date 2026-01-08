@@ -109,7 +109,7 @@ const FeaturedProducts = () => {
 
                 {/* CTA */}
                 <Button className="w-full bg-primary hover:bg-primary-glow group">
-                  View Details
+                  Inquire on WhatsApp
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
