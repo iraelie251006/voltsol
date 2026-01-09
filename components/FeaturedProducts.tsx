@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
       name: "VoltSol Urban Pro",
       category: "E-Bike",
       price: "RWF 1,200,000",
-      image: "/bike1.jpeg",
+      image: "/bike0.jpeg",
       badge: "Best Seller",
       specs: [
         { icon: Battery, label: "120km Range" },
