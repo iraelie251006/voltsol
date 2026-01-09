@@ -36,7 +36,7 @@ affordable.`,
 dedicated to delivering innovative electric solutions that
 make everyday life more efficient, sustainable, and
 affordable.`,
-    url: "https://voltsol.vercel.app",
+    url: "https://voltsolglobal.com",
   },
 };
 

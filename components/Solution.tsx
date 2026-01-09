@@ -22,7 +22,7 @@ const Solution = () => {
             easier, cheaper, and eco-friendly,
             while reducing emissions and
             promoting environmental
-            conservation.www.reallygreats
+            conservation.
           </p>
         </div>
       </div>

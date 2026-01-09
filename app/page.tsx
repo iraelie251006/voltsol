@@ -23,7 +23,6 @@ export default function Home() {
         <ValueProps />
         <ImpactCounters />
         <FeaturedProducts />
-        <InvestorStrip />
       </main>
       <Footer />
     </div>

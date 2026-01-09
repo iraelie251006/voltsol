@@ -76,14 +76,6 @@ const Header = () => {
               <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
                 About
               </a>
-              <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline" size="sm">
-                  Investor Deck
-                </Button>
-                <Button size="sm" className="bg-primary hover:bg-primary-glow">
-                  Get a Quote
-                </Button>
-              </div>
             </nav>
           </div>
         )}
