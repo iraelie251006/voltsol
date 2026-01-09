@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ImpactCounters from "@/components/ImpactCounters";
-import InvestorStrip from "@/components/InvestorStrip";
 import Problem from "@/components/Problem";
 import Services from "@/components/Services";
 import Solution from "@/components/Solution";

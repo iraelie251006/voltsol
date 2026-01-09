@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
@@ -39,16 +38,6 @@ const Header = () => {
               Solution
             </a>
           </nav>
-
-          {/* CTA Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              Investor Deck
-            </Button>
-            <Button size="sm" className="bg-primary hover:bg-primary-glow">
-              Get a Quote
-            </Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <button

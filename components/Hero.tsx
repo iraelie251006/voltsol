@@ -1,6 +1,4 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
 import Image from "next/image";
 
 const Hero = () => {
@@ -40,21 +38,6 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up [animation-delay:0.2s] opacity-0">
             VoltSol makes commuting cheaper, cleaner and faster—e-bikes, conversion kits, and fleet solutions for East Africa.
           </p>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-up [animation-delay:0.3s] opacity-0">
-            <Button size="lg" className="bg-primary hover:bg-primary-glow shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              Get a Quote
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button 
-            size="lg" 
-            variant="outline" 
-            className="border-2 hover:bg-primary/5" >
-              <Download className="mr-2 h-5 w-5" />
-              Investor Deck
-            </Button>
-          </div>
 
           {/* Quick Stats */}
           <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto animate-fade-up [animation-delay:0.4s] opacity-0">
