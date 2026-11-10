@@ -74,7 +74,7 @@ const ImpactCounters = () => {
       value: 2.5,
       suffix: "M",
       label: "Kilometers Powered",
-      description: "Clean miles driven on VoltSol",
+      description: "Clean miles driven on VOLTSOL",
     },
   ];
 
