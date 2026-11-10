@@ -9,7 +9,7 @@ const FeaturedProducts = () => {
   const products = [
     {
       id: 1,
-      name: "VoltSol Urban Pro",
+      name: "VOLTSOL Urban Pro",
       category: "E-Bike",
       price: "RWF 1,200,000",
       image: "/bike0.jpeg",
@@ -22,7 +22,7 @@ const FeaturedProducts = () => {
     },
     {
       id: 2,
-      name: "VoltSol Delivery Max",
+      name: "VOLTSOL Delivery Max",
       category: "E-Bike",
       price: "RWF 1,000,000",
       image: "/bike2.jpeg",
