@@ -17,7 +17,7 @@ const Header = () => {
               {/* <span className="text-white font-heading font-bold text-xl">V</span> */}
               <Image src={"/voltsol.jpeg"} alt="VoltSol Global Ltd" width={87} height={60}/>
             </div>
-            <span className="font-heading font-bold text-xl md:text-2xl">VoltSol Global Ltd</span>
+            <span className="font-heading font-bold text-xl md:text-2xl">VOLTSOL GLOBAL Ltd</span>
           </div>
 
           {/* Desktop Navigation */}
