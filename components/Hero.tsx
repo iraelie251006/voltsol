@@ -36,7 +36,7 @@ const Hero = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-up [animation-delay:0.2s] opacity-0">
-            VoltSol makes commuting cheaper, cleaner and faster—e-bikes, conversion kits, and fleet solutions for East Africa.
+            VOLTSOL makes commuting cheaper, cleaner and faster—e-bikes, conversion kits, and fleet solutions for East Africa.
           </p>
 
           {/* Quick Stats */}
