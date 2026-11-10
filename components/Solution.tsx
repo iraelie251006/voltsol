@@ -16,7 +16,7 @@ const Solution = () => {
             Our <span className="text-primary-glow">Solution</span>
           </h2>
           <p className="text-lg text-secondary-foreground/80">
-            VoltSol Global Ltd offers affordable
+            VOLTSOL GLOBAL Ltd offers affordable
             electric bicycles and bicycle
             conversion kits that make mobility
             easier, cheaper, and eco-friendly,
