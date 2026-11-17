@@ -16,7 +16,7 @@ const About = () => {
             About <span className="text-primary-glow">us</span>
           </h2>
           <p className="text-lg text-secondary-foreground/80">
-            VOLTSOL GLOBAL Ltd is a Rwandan-based company
+            VOLTSOL GLOBAL LTD is a Rwandan-based company
             dedicated to delivering innovative electric solutions that
             make everyday life more efficient, sustainable, and
             affordable. Founded with the vision of driving Africa’s
